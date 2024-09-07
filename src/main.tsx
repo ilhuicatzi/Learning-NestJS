@@ -7,6 +7,7 @@ import './index.css'
 
 // fonts
 import '@fontsource-variable/inconsolata';
+import '@fontsource-variable/nunito';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

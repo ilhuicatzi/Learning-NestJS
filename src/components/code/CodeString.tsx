@@ -11,8 +11,8 @@ function CodeString({code}:{code:string}) {
     navigator.clipboard.writeText(code);
   };
   return (
-    <pre className="dark:bg-zinc-900 bg-zinc-100 my-2 rounded-md flex justify-between w-full max-w-xl">
-      <code className="font-inconsolata text-sm select-all pl-4 py-2 text-zinc-800 dark:text-zinc-100">
+    <pre className="dark:bg-stone-900 bg-stone-100 my-2 rounded-md flex justify-between w-full max-w-xl">
+      <code className="font-inconsolata select-all pl-4 py-2 text-stone-800 dark:text-stone-100">
         {code}
       </code>
       <div className="flex justify-end items-start">
@@ -21,7 +21,7 @@ function CodeString({code}:{code:string}) {
             <TooltipTrigger asChild>
               <button
                 onClick={copyToClipboard}
-                className="bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-800 dark:hover:bg-zinc-700 p-1 rounded-md"
+                className="bg-stone-200 hover:bg-stone-300 dark:bg-stone-800 dark:hover:bg-stone-700 p-1 rounded-md"
               >
                 <Copy className=" w-4 h-4" />
               </button>

@@ -10,7 +10,7 @@ function Structure() {
       <span className="text-primary font-semibold">NestJS</span> es la
       siguiente:
     </p>
-    <div className=" rounded-md dark:bg-stone-900 bg-stone-100 pt-4 w-full max-w-xl text-sm">
+    <div className=" rounded-md dark:bg-stone-900 bg-stone-100 pt-4 w-full max-w-2xl text-sm">
       <Markdown>
         {`
       ├── src
@@ -29,7 +29,7 @@ function Structure() {
       `}
       </Markdown>
     </div>
-    <div className="space-y-2 w-full max-w-xl">
+    <div className="space-y-2 w-full max-w-2xl">
       <Table>
         <TableBody>
           <TableRow>

@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-between p-4">
       <Link to="/" className="text-3xl font-extrabold">
-        App
+        <img src="/nest.svg" alt="nestjs-logo" className="w-9 h-9" />
       </Link>
       <div className="flex items-center gap-3">
         <Link

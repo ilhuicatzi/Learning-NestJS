@@ -6,7 +6,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-function CodeString({code}:{code:string}) {
+function CodeString({ code }: { code: string }) {
   const copyToClipboard = () => {
     navigator.clipboard.writeText(code);
   };

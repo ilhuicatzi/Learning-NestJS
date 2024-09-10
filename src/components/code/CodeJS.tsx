@@ -1,5 +1,5 @@
 import hljs from "highlight.js";
-import "highlight.js/styles/atom-one-dark.css";
+import "highlight.js/styles/an-old-hope.css";
 import javascript from "highlight.js/lib/languages/javascript";
 import { Copy } from "lucide-react";
 import {
